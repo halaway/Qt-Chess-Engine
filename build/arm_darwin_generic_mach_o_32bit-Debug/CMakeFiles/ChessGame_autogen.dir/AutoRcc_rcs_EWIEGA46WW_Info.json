@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "/Users/donnie/ChessGame/build/arm_darwin_generic_mach_o_32bit-Debug/ChessGame_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/donnie/ChessGame/build/arm_darwin_generic_mach_o_32bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/donnie/ChessGame/build/arm_darwin_generic_mach_o_32bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/donnie/ChessGame",
+	"CMAKE_SOURCE_DIR" : "/Users/donnie/ChessGame",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/Users/donnie/ChessGame/build/arm_darwin_generic_mach_o_32bit-Debug/ChessGame_autogen/include",
+	"INPUTS" : [ "/Users/donnie/ChessGame/LightPawn.png" ],
+	"LOCK_FILE" : "/Users/donnie/ChessGame/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles/ChessGame_autogen.dir/AutoRcc_rcs_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "rcs" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_rcs.cpp",
+	"RCC_EXECUTABLE" : "/Users/donnie/Qt/Develop/6.2.12/macos/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/donnie/ChessGame/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles/ChessGame_autogen.dir/AutoRcc_rcs_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/donnie/ChessGame/rcs.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

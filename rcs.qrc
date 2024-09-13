@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>LightPawn.png</file>
+    </qresource>
+</RCC>

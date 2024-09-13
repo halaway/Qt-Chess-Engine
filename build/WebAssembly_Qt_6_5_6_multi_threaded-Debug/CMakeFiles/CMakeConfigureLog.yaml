@@ -1,0 +1,230 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Emscripten - 1 - x86
+      The host system is: Darwin - 21.6.0 - x86_64
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:122 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-HW67On"
+      binary: "/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-HW67On"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/platforms;/Users/donnie/emsdk/upstream/emscripten/cmake/Modules;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-HW67On'
+        
+        Run Build Command(s): /Users/donnie/anaconda3/bin/ninja -v cmTC_915a5
+        [1/2] /Users/donnie/emsdk/upstream/emscripten/em++ -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG  -std=gnu++17 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_915a5.dir/src.cxx.o -MF CMakeFiles/cmTC_915a5.dir/src.cxx.o.d -o CMakeFiles/cmTC_915a5.dir/src.cxx.o -c /Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-HW67On/src.cxx
+        [2/2] : && /Users/donnie/emsdk/upstream/emscripten/em++ -DQT_QML_DEBUG  CMakeFiles/cmTC_915a5.dir/src.cxx.o -o cmTC_915a5.js   && :
+        
+      exitCode: 0
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Emscripten - 1 - x86
+      The host system is: Darwin - 21.6.0 - x86_64
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:122 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-Zdr98w"
+      binary: "/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-Zdr98w"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/platforms;/Users/donnie/emsdk/upstream/emscripten/cmake/Modules;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-Zdr98w'
+        
+        Run Build Command(s): /Users/donnie/anaconda3/bin/ninja -v cmTC_9188e
+        [1/2] /Users/donnie/emsdk/upstream/emscripten/em++ -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG  -std=gnu++17 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_9188e.dir/src.cxx.o -MF CMakeFiles/cmTC_9188e.dir/src.cxx.o.d -o CMakeFiles/cmTC_9188e.dir/src.cxx.o -c /Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-Zdr98w/src.cxx
+        [2/2] : && /Users/donnie/emsdk/upstream/emscripten/em++ -DQT_QML_DEBUG  CMakeFiles/cmTC_9188e.dir/src.cxx.o -o cmTC_9188e.js   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:40 (include)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_qt_dependencies)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:167 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-UfA872"
+      binary: "/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-UfA872"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/platforms;/Users/donnie/emsdk/upstream/emscripten/cmake/Modules;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-UfA872'
+        
+        Run Build Command(s): /Users/donnie/anaconda3/bin/ninja -v cmTC_e01ad
+        [1/2] /Users/donnie/emsdk/upstream/emscripten/em++ -DHAVE_STDATOMIC  -DQT_QML_DEBUG  -std=gnu++17 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_e01ad.dir/src.cxx.o -MF CMakeFiles/cmTC_e01ad.dir/src.cxx.o.d -o CMakeFiles/cmTC_e01ad.dir/src.cxx.o -c /Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-UfA872/src.cxx
+        [2/2] : && /Users/donnie/emsdk/upstream/emscripten/em++ -DQT_QML_DEBUG  CMakeFiles/cmTC_e01ad.dir/src.cxx.o -o cmTC_e01ad.js   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/FindWrapRt.cmake:23 (check_cxx_source_compiles)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:40 (include)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_qt_dependencies)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:167 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Performing Test HAVE_GETTIME"
+    directories:
+      source: "/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-OkOWOg"
+      binary: "/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-OkOWOg"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/platforms;/Users/donnie/emsdk/upstream/emscripten/cmake/Modules;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-OkOWOg'
+        
+        Run Build Command(s): /Users/donnie/anaconda3/bin/ninja -v cmTC_bf3b5
+        [1/2] /Users/donnie/emsdk/upstream/emscripten/em++ -DHAVE_GETTIME  -DQT_QML_DEBUG  -std=gnu++17 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_bf3b5.dir/src.cxx.o -MF CMakeFiles/cmTC_bf3b5.dir/src.cxx.o.d -o CMakeFiles/cmTC_bf3b5.dir/src.cxx.o -c /Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-OkOWOg/src.cxx
+        [2/2] : && /Users/donnie/emsdk/upstream/emscripten/em++ -DQT_QML_DEBUG  CMakeFiles/cmTC_bf3b5.dir/src.cxx.o -o cmTC_bf3b5.js   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake:127 (check_cxx_source_compiles)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
+      - "/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_qt_dependencies)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:167 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Performing Test HAVE_EGL"
+    directories:
+      source: "/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-T0ucuY"
+      binary: "/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-T0ucuY"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/platforms;/Users/donnie/emsdk/upstream/emscripten/cmake/Modules;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/Users/donnie/Qt/Develop/6.5.6/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_EGL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-T0ucuY'
+        
+        Run Build Command(s): /Users/donnie/anaconda3/bin/ninja -v cmTC_a97c6
+        [1/2] /Users/donnie/emsdk/upstream/emscripten/em++ -DHAVE_EGL  -DQT_QML_DEBUG  -std=gnu++17 -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_a97c6.dir/src.cxx.o -MF CMakeFiles/cmTC_a97c6.dir/src.cxx.o.d -o CMakeFiles/cmTC_a97c6.dir/src.cxx.o -c /Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/CMakeScratch/TryCompile-T0ucuY/src.cxx
+        [2/2] : && /Users/donnie/emsdk/upstream/emscripten/em++ -DQT_QML_DEBUG  CMakeFiles/cmTC_a97c6.dir/src.cxx.o -o cmTC_a97c6.js   && :
+        
+      exitCode: 0
+...

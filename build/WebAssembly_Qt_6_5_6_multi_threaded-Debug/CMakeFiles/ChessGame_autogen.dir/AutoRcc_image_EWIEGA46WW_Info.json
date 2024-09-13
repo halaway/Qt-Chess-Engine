@@ -1,0 +1,36 @@
+{
+	"BUILD_DIR" : "/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/ChessGame_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/donnie/ChessGame",
+	"CMAKE_SOURCE_DIR" : "/Users/donnie/ChessGame",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/ChessGame_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/donnie/ChessGame/horse_black.png",
+		"/Users/donnie/ChessGame/king_black.png",
+		"/Users/donnie/ChessGame/queen_black.png",
+		"/Users/donnie/ChessGame/bishop_black.png",
+		"/Users/donnie/ChessGame/rook_white.png",
+		"/Users/donnie/ChessGame/pawn_white.png",
+		"/Users/donnie/ChessGame/rook_black.png",
+		"/Users/donnie/ChessGame/pawn_black.png",
+		"/Users/donnie/ChessGame/queen_white.png",
+		"/Users/donnie/ChessGame/horse_white.png",
+		"/Users/donnie/ChessGame/bishop_white.png",
+		"/Users/donnie/ChessGame/king_white.png"
+	],
+	"LOCK_FILE" : "/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/ChessGame_autogen.dir/AutoRcc_image_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "image" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_image.cpp",
+	"RCC_EXECUTABLE" : "/Users/donnie/Qt/Develop/6.5.6/macos/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/donnie/ChessGame/build/WebAssembly_Qt_6_5_6_multi_threaded-Debug/CMakeFiles/ChessGame_autogen.dir/AutoRcc_image_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/donnie/ChessGame/image.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

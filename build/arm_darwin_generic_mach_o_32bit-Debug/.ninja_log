@@ -1,0 +1,25 @@
+# ninja log v5
+22	217	1726239373950206327	ChessGame_autogen/mocs_compilation.cpp	64892cd51ad83cf9
+209	6240	1726239143473822719	CMakeFiles/ChessGame.dir/main.cpp.o	26d36c10d4bd467f
+242	315	1726223030733704302	ChessGame_autogen/EWIEGA46WW/qrc_image.cpp	657b05dbb26e4c7
+220	289	1726239374416008149	CMakeFiles/ChessGame.dir/mainwindow.cpp.o	c88141003605673
+317	714	1726223031092376410	CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.o	b65813175d66428a
+223	4947	1726239379001942186	CMakeFiles/ChessGame.dir/window.cpp.o	633cd8d7a174c59
+168	225	1726220568118242159	ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp	97e40310e70bbbfa
+131	2615	1726201421276466642	CMakeFiles/ChessGame.dir/piece.cpp.o	7f02a370cfc212aa
+215	3660	1726239140932033963	CMakeFiles/ChessGame.dir/board.cpp.o	dc440a00ce478ed5
+22	217	1726239373950206327	ChessGame_autogen/timestamp	64892cd51ad83cf9
+312	3147	1726194438893758842	CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.o	bbb876642833e969
+4947	5321	1726239379440524308	ChessGame.app/Contents/MacOS/ChessGame	82318ec085a988c7
+22	217	1726239373950206327	/Users/donnie/ChessGame/build/arm_darwin_generic_mach_o_32bit-Debug/ChessGame_autogen/mocs_compilation.cpp	64892cd51ad83cf9
+22	217	1726239373950206327	/Users/donnie/ChessGame/build/arm_darwin_generic_mach_o_32bit-Debug/ChessGame_autogen/timestamp	64892cd51ad83cf9
+168	225	1726220568118242159	/Users/donnie/ChessGame/build/arm_darwin_generic_mach_o_32bit-Debug/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp	97e40310e70bbbfa
+225	680	1726220568549250978	CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.o	849fc402b6658b6b
+242	315	1726223030733704302	/Users/donnie/ChessGame/build/arm_darwin_generic_mach_o_32bit-Debug/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp	657b05dbb26e4c7
+4	119	1726239708748193577	ChessGame_autogen/timestamp	64892cd51ad83cf9
+4	119	1726239708748193577	ChessGame_autogen/mocs_compilation.cpp	64892cd51ad83cf9
+4	119	1726239708748193577	/Users/donnie/ChessGame/build/arm_darwin_generic_mach_o_32bit-Debug/ChessGame_autogen/timestamp	64892cd51ad83cf9
+4	119	1726239708748193577	/Users/donnie/ChessGame/build/arm_darwin_generic_mach_o_32bit-Debug/ChessGame_autogen/mocs_compilation.cpp	64892cd51ad83cf9
+122	219	1726239709048412822	CMakeFiles/ChessGame.dir/mainwindow.cpp.o	c88141003605673
+122	5295	1726239714037470579	CMakeFiles/ChessGame.dir/window.cpp.o	633cd8d7a174c59
+5295	5717	1726239714538099625	ChessGame.app/Contents/MacOS/ChessGame	a580f4f8bcf6e2b6
