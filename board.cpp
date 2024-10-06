@@ -41,29 +41,29 @@ Board::Board()
 
     // INITIAL CHESS BOARD
     std::vector<std::vector<BoardPiece>> init_board = {
-       {BoardPiece{true, "rook", false}, BoardPiece{true, "knight", false}, BoardPiece{true, "bishop", false}, BoardPiece{true, "queen", false},
-        BoardPiece{true, "king", false}, BoardPiece{true, "bishop", false}, BoardPiece{true, "knight", false}, BoardPiece{true, "rook", false}},
+        {BoardPiece{true, "rook", false}, BoardPiece{true, "knight", false}, BoardPiece{true, "bishop", false}, BoardPiece{true, "queen", false},
+         BoardPiece{true, "king", false}, BoardPiece{true, "bishop", false}, BoardPiece{true, "knight", false}, BoardPiece{true, "rook", false}},
 
-       {BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false},
-        BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false}},
+        {BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false},
+         BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false}},
 
-       {BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true},
-        BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}},
+        {BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true},
+         BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}},
 
-       {BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true},
-        BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}},
+        {BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true},
+         BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}},
 
-       {BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true},
-        BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}},
+        {BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true},
+         BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}},
 
-       {BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true},
-        BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}},
+        {BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true},
+         BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}},
 
-       {BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false},
-        BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false}},
+        {BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false},
+         BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false}},
 
-       {BoardPiece{false, "rook", false}, BoardPiece{false, "knight", false}, BoardPiece{false, "bishop", false}, BoardPiece{false, "queen", false},
-        BoardPiece{false, "king", false}, BoardPiece{false, "bishop", false}, BoardPiece{false, "knight", false}, BoardPiece{false, "rook", false}}};
+        {BoardPiece{false, "rook", false}, BoardPiece{false, "knight", false}, BoardPiece{false, "bishop", false}, BoardPiece{false, "queen", false},
+         BoardPiece{false, "king", false}, BoardPiece{false, "bishop", false}, BoardPiece{false, "knight", false}, BoardPiece{false, "rook", false}}};
 
     // Assiging board
     board = init_board;
@@ -341,107 +341,3 @@ bool Can_King_Move(const Board &board, std::pair<int, int> start, std::pair<int,
 // My Edited Functions
 
 // Can Pawn Move to end Location
-
-/*
-bool Can_pawn_Move(const Board& board, std::pair<int, int> start, std::pair<int, int> end){
-
-
-    int s_xpos = start.first;
-    int s_ypos = start.second;
-
-    int e_xpos = start.first;
-    int e_ypos = start.second;
-
-    // Checking within the same column but only plus one in row
-    if( ( (e_xpos == s_xpos + 1) && ( s_ypos == e_ypos) )  &&  board.board[e_xpos][e_ypos].is_empty  ){
-        return true;
-
-    }
-    // Can Capture Diagonally
-    else if ( (e_xpos == s_xpos + 1)  && ((e_ypos == s_ypos - 1) || ( e_ypos == s_ypos + 1 ) ) &&
-                 board.board[e_xpos][e_ypos].is_empty || board.board[e_xpos][e_ypos].is_opponent ){
-        return true;
-    }
-    return false;
-}
-*/
-
-// Can Knight Move to end Location
-/*
- * bool Can_Knight_Move(const Board& board, std::pair<int, int> start, std::pair<int, int> end){
-
-    // Setting positions
-    int s_xpos = start.first;
-    int s_ypos = start.second;
-
-    int e_xpos = end.first;
-    int e_ypos = end.second;
-
-
-    // Checking if on the same column
-    if ( (e_ypos == s_ypos || e_xpos == s_xpos)  ){
-
-        return false;
-    }
-
-    if ( std::abs(e_xpos - s_xpos) != 2 && std::abs( e_ypos - s_ypos != 1 ) ){
-        if ( !board.board[e_xpos][e_ypos].empty || !board.board[e_xpos][s_ypos].is_opponent ){
-            return false;
-        }
-        return true;
-    }
-
-
-    return true;
-}
-
- */
-
-/*
- * bool Can_Bishop_Move(const Board& board, std::pair<int, int> start, std::pair<int, int> end){
-
-
-    int s_xpos = start.first;
-    int s_ypos = start.second;
-
-    int e_xpos = end.first;
-    int e_ypos = end.second;
-
-
-    // Direction variable
-
-    int x_direction, y_direction;
-
-    int t_dist = std::abs(e_ypos - s_ypos);
-
-
-    // Determine direction to check
-    if ( e_xpos > s_pos && e_ypos > s_pos ){
-        x_direction = 1;
-        y_direction = 1;
-
-    }
-    else if (e_xpos > s_xpos && e_ypos < s_ypos){
-        x_direction = 1;
-        y_direction = -1;
-    }
-    else if (e_xpos < s_xpos && e_ypos > s_ypos){
-        x_direction = -1;
-        y_direction = 1;
-    }
-    else if ( e_xpos < s_xpos && e_ypos < s_ypos ){
-        x_direction = -1;
-        y_direction = -1;
-    }
-
-    for(int i= s_xpos; i < t_dist; i+direction){
-
-    }
-
-
-    return true;
-
-}
-
-
- */
