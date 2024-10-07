@@ -305,11 +305,11 @@ ChessGame_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX13.1
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdarg.h \
+  CMakeFiles/3.30.3/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.30.3/CMakeSystem.cmake \
   /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/CMakeLists.txt \
   /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/board.cpp \
   /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/board.h \
-  CMakeFiles/3.30.3/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.30.3/CMakeSystem.cmake \
   ChessGame_autogen/moc_predefs.h \
   /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/image.qrc \
   /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/main.cpp \
@@ -2284,7 +2284,6 @@ CMakeFiles/ChessGame.dir/main.cpp.o: /Users/donnie/Desktop/Chess-Folder/Qt-Chess
   /usr/local/lib/QtCore.framework/Headers/QFile \
   /usr/local/lib/QtCore.framework/Headers/QIODevice \
   /usr/local/lib/QtCore.framework/Headers/QMap \
-  /usr/local/lib/QtCore.framework/Headers/QSharedDataPointer \
   /usr/local/lib/QtCore.framework/Headers/qdebug.h \
   /usr/local/lib/QtCore.framework/Headers/qfile.h \
   /usr/local/lib/QtCore.framework/Headers/qiodevice.h \
@@ -2292,7 +2291,6 @@ CMakeFiles/ChessGame.dir/main.cpp.o: /Users/donnie/Desktop/Chess-Folder/Qt-Chess
   /usr/local/lib/QtCore.framework/Headers/qmap.h \
   /usr/local/lib/QtCore.framework/Headers/qobject.h \
   /usr/local/lib/QtCore.framework/Headers/qrect.h \
-  /usr/local/lib/QtCore.framework/Headers/qshareddata.h \
   /usr/local/lib/QtCore.framework/Headers/qsize.h \
   /usr/local/lib/QtGui.framework/Headers/QKeyEvent \
   /usr/local/lib/QtGui.framework/Headers/QMouseEvent \
@@ -3483,12 +3481,10 @@ CMakeFiles/ChessGame.dir/window.cpp.o: /Users/donnie/Desktop/Chess-Folder/Qt-Che
   /usr/local/include/QtWidgets/qtwidgetsglobal.h \
   /usr/local/include/QtWidgets/qwidget.h \
   /usr/local/lib/QtCore.framework/Headers/QMap \
-  /usr/local/lib/QtCore.framework/Headers/QSharedDataPointer \
   /usr/local/lib/QtCore.framework/Headers/qlist.h \
   /usr/local/lib/QtCore.framework/Headers/qmap.h \
   /usr/local/lib/QtCore.framework/Headers/qobject.h \
   /usr/local/lib/QtCore.framework/Headers/qrect.h \
-  /usr/local/lib/QtCore.framework/Headers/qshareddata.h \
   /usr/local/lib/QtCore.framework/Headers/qsize.h \
   /usr/local/lib/QtGui.framework/Headers/QBrush \
   /usr/local/lib/QtGui.framework/Headers/QColor \
@@ -3573,8 +3569,6 @@ ChessGame_autogen/include/ui_mainwindow.h:
 /usr/local/lib/QtCore.framework/Headers/qfile.h:
 
 /usr/local/lib/QtCore.framework/Headers/qdebug.h:
-
-/usr/local/lib/QtCore.framework/Headers/QSharedDataPointer:
 
 /usr/local/lib/QtCore.framework/Headers/QFile:
 
@@ -3823,8 +3817,6 @@ ChessGame_autogen/include/ui_mainwindow.h:
 /usr/local/include/QtCore/qgenericatomic.h:
 
 /usr/local/include/QtCore/qfunctionaltools_impl.h:
-
-/usr/local/lib/QtCore.framework/Headers/qshareddata.h:
 
 /usr/local/include/QtCore/qforeach.h:
 
@@ -4842,6 +4834,10 @@ CMakeFiles/3.30.3/CMakeCXXCompiler.cmake:
 
 /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/main.cpp:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_int8_t.h:
+
+/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/board.cpp:
+
 /usr/local/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
 
 /usr/local/Cellar/qt/6.7.0_2/lib/QtCore.framework/Versions/A/Headers/qsize.h:
@@ -4851,10 +4847,6 @@ CMakeFiles/3.30.3/CMakeSystem.cmake:
 /usr/local/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake:
 
 /usr/local/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_int8_t.h:
-
-/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/board.cpp:
 
 /usr/local/Cellar/qt/6.7.0_2/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h:
 

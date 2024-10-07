@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 
-// Enums for switching function to use
+// Enumeration representing the codes for different chess piece types.
 enum string_code
 {
     pawn,
@@ -15,7 +15,7 @@ enum string_code
     knight
 };
 
-// Selection for Piece type
+// Converts string representation of a chess piece type to its corresponding code.
 string_code switch_piece(std::string const &inString)
 {
     if (inString == "pawn")
@@ -40,30 +40,33 @@ Board::Board()
 {
 
     // INITIAL CHESS BOARD
-    std::vector<std::vector<BoardPiece>> init_board = {
-        {BoardPiece{true, "rook", false}, BoardPiece{true, "knight", false}, BoardPiece{true, "bishop", false}, BoardPiece{true, "queen", false},
-         BoardPiece{true, "king", false}, BoardPiece{true, "bishop", false}, BoardPiece{true, "knight", false}, BoardPiece{true, "rook", false}},
+    std::vector<std::vector<BoardPiece>> init_board(8, std::vector<BoardPiece>(8));
 
-        {BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false},
-         BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false}, BoardPiece{true, "pawn", false}},
+    // Initialize the first and last rows - rooks, knights, bishops
+    std::string backRank[] = {"rook", "knight", "bishop", "queen", "king", "bishop", "knight", "rook"};
+    for (int i = 0; i < 8; ++i)
+    {
 
-        {BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true},
-         BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}},
+        init_board[0][i] = {true, backRank[i], false};  // Black pieces lie on the lower ranks
+        init_board[7][i] = {false, backRank[i], false}; // White pieces lie on the higher ranks
+    }
 
-        {BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true},
-         BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}},
+    // Initializing the second and seventh rows of pawns
+    for (int i = 0; i < 8; ++i)
+    {
 
-        {BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true},
-         BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}},
+        init_board[1][i] = {true, "pawn", false};  // Black pawns
+        init_board[6][i] = {false, "pawn", false}; // White pawns
+    }
 
-        {BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true},
-         BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}, BoardPiece{false, "-", true}},
-
-        {BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false},
-         BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false}, BoardPiece{false, "pawn", false}},
-
-        {BoardPiece{false, "rook", false}, BoardPiece{false, "knight", false}, BoardPiece{false, "bishop", false}, BoardPiece{false, "queen", false},
-         BoardPiece{false, "king", false}, BoardPiece{false, "bishop", false}, BoardPiece{false, "knight", false}, BoardPiece{false, "rook", false}}};
+    // Initializing empty squares
+    for (int row = 2; row < 6; ++row)
+    {
+        for (int col = 0; col < 8; ++col)
+        {
+            init_board[row][col] = {false, "-", true};
+        }
+    }
 
     // Assiging board
     board = init_board;
@@ -100,7 +103,7 @@ bool Board::Position_Piece(std::pair<int, int> start, std::pair<int, int> end)
     return false;
 }
 
-//
+// Determing if opponents move is valid given start and end position
 bool Board::OpponentPosition(std::pair<int, int> start, std::pair<int, int> end)
 {
 
@@ -331,13 +334,11 @@ bool Can_King_Move(const Board &board, std::pair<int, int> start, std::pair<int,
 
     // TODO: Determine if king can take
 
-    // if ( board[end.first][end.second].is_empty || board[end.first][end.second].is_opponent ){
-
-    // }
+    if (!board.board[end.first][end.second].is_empty && !board.board[end.first][end.second].is_opponent)
+    {
+        return false;
+    }
 
     return true;
 }
 
-// My Edited Functions
-
-// Can Pawn Move to end Location

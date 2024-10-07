@@ -1,7 +1,7 @@
 CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.o: \
-  /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/mocs_compilation.cpp \
-  /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/EWIEGA46WW/moc_mainwindow.cpp \
-  /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/EWIEGA46WW/../../../mainwindow.h \
+  /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/mocs_compilation.cpp \
+  /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+  /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/EWIEGA46WW/../../../mainwindow.h \
   /usr/local/lib/QtWidgets.framework/Headers/QMainWindow \
   /usr/local/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /usr/local/include/QtWidgets/qtwidgetsglobal.h \

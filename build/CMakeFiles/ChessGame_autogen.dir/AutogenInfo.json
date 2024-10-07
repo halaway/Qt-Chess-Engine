@@ -1,16 +1,16 @@
 {
-	"BUILD_DIR" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen",
-	"CMAKE_BINARY_DIR" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build",
+	"BUILD_DIR" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build",
 	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine",
 	"CMAKE_EXECUTABLE" : "/usr/local/Cellar/cmake/3.30.3/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
 		"/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/CMakeLists.txt",
-		"/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles/3.30.3/CMakeSystem.cmake",
+		"/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles/3.30.3/CMakeSystem.cmake",
 		"/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake",
-		"/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles/3.30.3/CMakeCXXCompiler.cmake",
+		"/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles/3.30.3/CMakeCXXCompiler.cmake",
 		"/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -344,7 +344,7 @@
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/deps",
+	"DEP_FILE" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "ChessGame_autogen/timestamp",
 	"HEADERS" : 
 	[
@@ -368,8 +368,8 @@
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/include",
-	"MOC_COMPILATION_FILE" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -413,17 +413,17 @@
 		"-c",
 		"/usr/local/Cellar/cmake/3.30.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles/ChessGame_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles/ChessGame_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/local/share/qt/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/local/share/qt/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 7,
-	"SETTINGS_FILE" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles/ChessGame_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles/ChessGame_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[

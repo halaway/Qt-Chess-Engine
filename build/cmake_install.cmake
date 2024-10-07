@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame.app" USE_SOURCE_PERMISSIONS)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame.app" USE_SOURCE_PERMISSIONS)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./ChessGame.app/Contents/MacOS/ChessGame" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./ChessGame.app/Contents/MacOS/ChessGame")
     execute_process(COMMAND /Users/donnie/anaconda3/bin/install_name_tool
@@ -63,6 +63,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

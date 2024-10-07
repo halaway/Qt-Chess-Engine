@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

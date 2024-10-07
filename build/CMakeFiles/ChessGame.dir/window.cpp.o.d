@@ -417,8 +417,10 @@ CMakeFiles/ChessGame.dir/window.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__split_buffer \
-  /usr/local/lib/QtCore.framework/Headers/QSharedDataPointer \
-  /usr/local/lib/QtCore.framework/Headers/qshareddata.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QWidget \
+  /usr/local/lib/QtWidgets.framework/Headers/qwidget.h \
+  /usr/local/include/QtWidgets/qtwidgetsglobal.h \
+  /usr/local/include/QtGui/qtguiglobal.h \
   /usr/local/include/QtCore/qglobal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdbool.h \
@@ -470,13 +472,21 @@ CMakeFiles/ChessGame.dir/window.cpp.o: \
   /usr/local/include/QtCore/qtresource.h \
   /usr/local/include/QtCore/qttranslation.h \
   /usr/local/include/QtCore/qversiontagging.h \
-  /usr/local/include/QtCore/qhashfunctions.h \
+  /usr/local/include/QtGui/qtgui-config.h \
+  /usr/local/include/QtGui/qtguiexports.h \
+  /usr/local/include/QtWidgets/qtwidgets-config.h \
+  /usr/local/include/QtWidgets/qtwidgetsexports.h \
+  /usr/local/include/QtGui/qwindowdefs.h \
+  /usr/local/include/QtCore/qobjectdefs.h \
+  /usr/local/include/QtCore/qnamespace.h \
+  /usr/local/include/QtCore/qtmetamacros.h \
+  /usr/local/include/QtCore/qobjectdefs_impl.h \
+  /usr/local/include/QtCore/qfunctionaltools_impl.h \
+  /usr/local/include/QtCore/qobject.h \
   /usr/local/include/QtCore/qstring.h /usr/local/include/QtCore/qchar.h \
   /usr/local/include/QtCore/qstringview.h \
   /usr/local/include/QtCore/qbytearray.h \
   /usr/local/include/QtCore/qrefcount.h \
-  /usr/local/include/QtCore/qnamespace.h \
-  /usr/local/include/QtCore/qtmetamacros.h \
   /usr/local/include/QtCore/qarraydata.h \
   /usr/local/include/QtCore/qpair.h \
   /usr/local/include/QtCore/qarraydatapointer.h \
@@ -498,20 +508,9 @@ CMakeFiles/ChessGame.dir/window.cpp.o: \
   /usr/local/include/QtCore/qstringbuilder.h \
   /usr/local/include/QtCore/qstringconverter.h \
   /usr/local/include/QtCore/qstringconverter_base.h \
+  /usr/local/include/QtCore/qlist.h \
+  /usr/local/include/QtCore/qhashfunctions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/numeric \
-  /usr/local/lib/QtWidgets.framework/Headers/QWidget \
-  /usr/local/lib/QtWidgets.framework/Headers/qwidget.h \
-  /usr/local/include/QtWidgets/qtwidgetsglobal.h \
-  /usr/local/include/QtGui/qtguiglobal.h \
-  /usr/local/include/QtGui/qtgui-config.h \
-  /usr/local/include/QtGui/qtguiexports.h \
-  /usr/local/include/QtWidgets/qtwidgets-config.h \
-  /usr/local/include/QtWidgets/qtwidgetsexports.h \
-  /usr/local/include/QtGui/qwindowdefs.h \
-  /usr/local/include/QtCore/qobjectdefs.h \
-  /usr/local/include/QtCore/qobjectdefs_impl.h \
-  /usr/local/include/QtCore/qfunctionaltools_impl.h \
-  /usr/local/include/QtCore/qobject.h /usr/local/include/QtCore/qlist.h \
   /usr/local/include/QtCore/qiterator.h \
   /usr/local/include/QtCore/qbytearraylist.h \
   /usr/local/include/QtCore/qstringlist.h \

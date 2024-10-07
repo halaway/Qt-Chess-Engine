@@ -23,28 +23,45 @@
  */
 
 
-
 window::window(QWidget *parent)
     : QWidget(parent),
-    scene(new QGraphicsScene(this)),
-    view(new QGraphicsView(scene, this))
+      scene(new QGraphicsScene(this)),
+      view(new QGraphicsView(scene, this))
 {
-    // Set up the view
+    // Setting up the View
+    SetUpView();
+
+    // Setting up the Scene 
+    SetUpScene();
+
+    // Setting the Window Attributes
+    SetUpWindow();
+
+    // QMap Containing Images ang File paths
+    pieceImages = FilePath();
+
+    RenderBoard();
+}
+
+// Initializing Scene
+void window::SetUpView(){
     view->setRenderHint(QPainter::Antialiasing);
     view->setRenderHint(QPainter::SmoothPixmapTransform);
     view->setGeometry(0, 0, 400, 400);
     view->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     view->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     view->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
+}
 
-    scene->setSceneRect(0, 0, 400, 400);
+// Initializing Scene
+void window::SetUpScene(){
+     scene->setSceneRect(0, 0, 400, 400);
+}
 
-    // Set the widget size
+// Initializing Window Attributes
+void window::SetUpWindow(){
     setFixedSize(400, 400);
     this->setWindowTitle("Chess Engine");
-
-    //this->setWindowTitle("Chess Engine");
-    RenderBoard();
 }
 
 // Rendering our Board and Pieces
@@ -57,12 +74,8 @@ void window::RenderBoard()
     const QColor color1 = QColor(255, 255, 255);
     const QColor color2 = QColor(118, 188, 104); // 118, 188, 104 || 128, 141, 96
 
-    // QMap Containing Images ang File paths
-    QMap<QString, QPixmap> pieceImages = FilePath();
-
-    //Board
+    // Board
     auto init_board = inner_board.board;
-
 
     scene->clear();
 
@@ -77,7 +90,6 @@ void window::RenderBoard()
 
             // Draw the square
             scene->addRect(rect, pen, brush);
-
 
             const Board::BoardPiece &piece = init_board[row][col];
             if (!piece.is_empty)
@@ -95,7 +107,6 @@ void window::RenderBoard()
         }
     }
 
-
     QPen gridPen(Qt::black, 1, Qt::SolidLine);
     for (int i = 0; i <= boardSize; ++i)
     {
@@ -104,28 +115,30 @@ void window::RenderBoard()
     }
 }
 
-// Storing File Paths into Map
+// Storing File Paths into QMap
 QMap<QString, QPixmap> window::FilePath()
 {
+    // Setting QMap and attributes to iterate through
+    QMap<QString, QPixmap> p_images;
+    QStringList pieceTypes = {"rook", "knight", "bishop", "queen", "king", "pawn"};
+    QStringList colors = {"black", "white"};
 
-    QMap<QString, QPixmap> pieceImages;
-    pieceImages["rook_black"] = QPixmap(":/imageFolder/rook_black.png");
-    pieceImages["knight_black"] = QPixmap(":/imageFolder/horse_black.png");
-    pieceImages["bishop_black"] = QPixmap(":/imageFolder/bishop_black.png");
-    pieceImages["queen_black"] = QPixmap(":/imageFolder/queen_black.png");
-    pieceImages["king_black"] = QPixmap(":/imageFolder/king_black.png");
-    pieceImages["pawn_black"] = QPixmap(":/imageFolder/pawn_black.png");
+    // Iterating available colors
+    for (const QString &color : colors)
+    {
+        // Iterating available peices
+        for (const QString &piece : pieceTypes)
+        {
+            QString key = QString("%1_%2").arg(piece).arg(color);
+            QString path = QString(":/imageFolder/%1_%2.png").arg(((piece == "knight") ? "horse" : piece)).arg(color);
 
-    pieceImages["rook_white"] = QPixmap(":/imageFolder/rook_white.png");
-    pieceImages["knight_white"] = QPixmap(":/imageFolder/horse_white.png");
-    pieceImages["bishop_white"] = QPixmap(":/imageFolder/bishop_white.png");
-    pieceImages["queen_white"] = QPixmap(":/imageFolder/queen_white.png");
-    pieceImages["king_white"] = QPixmap(":/imageFolder/king_white.png");
-    pieceImages["pawn_white"] = QPixmap(":/imageFolder/pawn_white.png");
+            // Assigning piece name to file path
+            p_images[key] = QPixmap(path);
+        }
+    }
 
-    return pieceImages;
+    return p_images;
 }
-
 
 // Initializing Random Seed
 void window::initializeRandomSeed()
@@ -138,7 +151,6 @@ void window::initializeRandomSeed()
     }
 }
 
-
 // Creating Moves based on seed generation
 std::pair<int, int> window::CreateMove()
 {
@@ -149,6 +161,7 @@ std::pair<int, int> window::CreateMove()
     return std::pair<int, int>{s_xpos, s_ypos};
 }
 
+// Creating a Valid Opponent Move
 void window::OpponentMove()
 {
     initializeRandomSeed();
@@ -162,11 +175,9 @@ void window::OpponentMove()
         startMove = CreateMove();
         endMove = CreateMove();
 
-
         if (inner_board.OpponentPosition(startMove, endMove) &&
             inner_board.board[startMove.first][startMove.second].is_opponent == true &&
-            inner_board.board[endMove.first][endMove.second].is_empty == true
-            )
+            inner_board.board[endMove.first][endMove.second].is_empty == true)
         {
             validMoveFound = true;
 
@@ -195,9 +206,9 @@ void window::mousePressEvent(QMouseEvent *event)
     // Insert into deque
     positions.push_back(std::pair<int, int>{row, col});
 
-    qDebug() << row << " " << col;
+    // qDebug() << row << " " << col;
 
-    // // Check if there are exactly two positions
+    // Check if there are exactly two positions
     if (positions.size() == 2)
     {
         auto firstPos = positions.front();
@@ -210,14 +221,12 @@ void window::mousePressEvent(QMouseEvent *event)
             if (inner_board.Position_Piece(firstPos, secondPos))
             {
                 // qDebug() << "Move is valid";
-                // inner_board.Print();
 
                 // Generating Move
                 OpponentMove();
 
                 // Creating Board
                 RenderBoard();
-
 
                 // Clearing Deque of Moves
                 positions.clear();

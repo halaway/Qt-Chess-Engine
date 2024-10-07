@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build
+CMAKE_BINARY_DIR = /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ChessGame.dir/depend.make
@@ -72,17 +72,17 @@ include CMakeFiles/ChessGame.dir/flags.make
 ChessGame_autogen/timestamp: /usr/local/share/qt/libexec/moc
 ChessGame_autogen/timestamp: /usr/local/share/qt/libexec/uic
 ChessGame_autogen/timestamp: CMakeFiles/ChessGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ChessGame"
-	/usr/local/Cellar/cmake/3.30.3/bin/cmake -E cmake_autogen /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles/ChessGame_autogen.dir/AutogenInfo.json ""
-	/usr/local/Cellar/cmake/3.30.3/bin/cmake -E touch /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ChessGame"
+	/usr/local/Cellar/cmake/3.30.3/bin/cmake -E cmake_autogen /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles/ChessGame_autogen.dir/AutogenInfo.json ""
+	/usr/local/Cellar/cmake/3.30.3/bin/cmake -E touch /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/timestamp
 
 ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp: /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/rcs.qrc
 ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp: CMakeFiles/ChessGame_autogen.dir/AutoRcc_rcs_EWIEGA46WW_Info.json
 ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp: /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/LightPawn.png
 ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp: /usr/local/share/qt/libexec/rcc
 ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp: /usr/local/share/qt/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for rcs.qrc"
-	/usr/local/Cellar/cmake/3.30.3/bin/cmake -E cmake_autorcc /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles/ChessGame_autogen.dir/AutoRcc_rcs_EWIEGA46WW_Info.json 
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for rcs.qrc"
+	/usr/local/Cellar/cmake/3.30.3/bin/cmake -E cmake_autorcc /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles/ChessGame_autogen.dir/AutoRcc_rcs_EWIEGA46WW_Info.json 
 
 ChessGame_autogen/EWIEGA46WW/qrc_image.cpp: /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/image.qrc
 ChessGame_autogen/EWIEGA46WW/qrc_image.cpp: CMakeFiles/ChessGame_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json
@@ -100,27 +100,27 @@ ChessGame_autogen/EWIEGA46WW/qrc_image.cpp: /Users/donnie/Desktop/Chess-Folder/Q
 ChessGame_autogen/EWIEGA46WW/qrc_image.cpp: /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/king_white.png
 ChessGame_autogen/EWIEGA46WW/qrc_image.cpp: /usr/local/share/qt/libexec/rcc
 ChessGame_autogen/EWIEGA46WW/qrc_image.cpp: /usr/local/share/qt/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Automatic RCC for image.qrc"
-	/usr/local/Cellar/cmake/3.30.3/bin/cmake -E cmake_autorcc /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles/ChessGame_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json 
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Automatic RCC for image.qrc"
+	/usr/local/Cellar/cmake/3.30.3/bin/cmake -E cmake_autorcc /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles/ChessGame_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json 
 
 CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.o: CMakeFiles/ChessGame.dir/flags.make
 CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.o: ChessGame_autogen/mocs_compilation.cpp
 CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.o: CMakeFiles/ChessGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.o -MF CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.o -c /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.o -MF CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.o -c /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/mocs_compilation.cpp
 
 CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/mocs_compilation.cpp > CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/mocs_compilation.cpp > CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/mocs_compilation.cpp -o CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/mocs_compilation.cpp -o CMakeFiles/ChessGame.dir/ChessGame_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/ChessGame.dir/main.cpp.o: CMakeFiles/ChessGame.dir/flags.make
 CMakeFiles/ChessGame.dir/main.cpp.o: /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/main.cpp
 CMakeFiles/ChessGame.dir/main.cpp.o: CMakeFiles/ChessGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ChessGame.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ChessGame.dir/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChessGame.dir/main.cpp.o -MF CMakeFiles/ChessGame.dir/main.cpp.o.d -o CMakeFiles/ChessGame.dir/main.cpp.o -c /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/main.cpp
 
 CMakeFiles/ChessGame.dir/main.cpp.i: cmake_force
@@ -134,7 +134,7 @@ CMakeFiles/ChessGame.dir/main.cpp.s: cmake_force
 CMakeFiles/ChessGame.dir/mainwindow.cpp.o: CMakeFiles/ChessGame.dir/flags.make
 CMakeFiles/ChessGame.dir/mainwindow.cpp.o: /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/mainwindow.cpp
 CMakeFiles/ChessGame.dir/mainwindow.cpp.o: CMakeFiles/ChessGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ChessGame.dir/mainwindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ChessGame.dir/mainwindow.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChessGame.dir/mainwindow.cpp.o -MF CMakeFiles/ChessGame.dir/mainwindow.cpp.o.d -o CMakeFiles/ChessGame.dir/mainwindow.cpp.o -c /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/mainwindow.cpp
 
 CMakeFiles/ChessGame.dir/mainwindow.cpp.i: cmake_force
@@ -148,7 +148,7 @@ CMakeFiles/ChessGame.dir/mainwindow.cpp.s: cmake_force
 CMakeFiles/ChessGame.dir/window.cpp.o: CMakeFiles/ChessGame.dir/flags.make
 CMakeFiles/ChessGame.dir/window.cpp.o: /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/window.cpp
 CMakeFiles/ChessGame.dir/window.cpp.o: CMakeFiles/ChessGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ChessGame.dir/window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ChessGame.dir/window.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChessGame.dir/window.cpp.o -MF CMakeFiles/ChessGame.dir/window.cpp.o.d -o CMakeFiles/ChessGame.dir/window.cpp.o -c /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/window.cpp
 
 CMakeFiles/ChessGame.dir/window.cpp.i: cmake_force
@@ -162,7 +162,7 @@ CMakeFiles/ChessGame.dir/window.cpp.s: cmake_force
 CMakeFiles/ChessGame.dir/board.cpp.o: CMakeFiles/ChessGame.dir/flags.make
 CMakeFiles/ChessGame.dir/board.cpp.o: /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/board.cpp
 CMakeFiles/ChessGame.dir/board.cpp.o: CMakeFiles/ChessGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ChessGame.dir/board.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ChessGame.dir/board.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChessGame.dir/board.cpp.o -MF CMakeFiles/ChessGame.dir/board.cpp.o.d -o CMakeFiles/ChessGame.dir/board.cpp.o -c /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/board.cpp
 
 CMakeFiles/ChessGame.dir/board.cpp.i: cmake_force
@@ -176,30 +176,30 @@ CMakeFiles/ChessGame.dir/board.cpp.s: cmake_force
 CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.o: CMakeFiles/ChessGame.dir/flags.make
 CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.o: ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp
 CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.o: CMakeFiles/ChessGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.o -MF CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.o.d -o CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.o -c /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.o -MF CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.o.d -o CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.o -c /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp
 
 CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp > CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp > CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.i
 
 CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp -o CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp -o CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp.s
 
 CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.o: CMakeFiles/ChessGame.dir/flags.make
 CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.o: ChessGame_autogen/EWIEGA46WW/qrc_image.cpp
 CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.o: CMakeFiles/ChessGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.o -MF CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.o.d -o CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.o -c /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.o -MF CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.o.d -o CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.o -c /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp
 
 CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp > CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp > CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.i
 
 CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp -o CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp -o CMakeFiles/ChessGame.dir/ChessGame_autogen/EWIEGA46WW/qrc_image.cpp.s
 
 # Object files for target ChessGame
 ChessGame_OBJECTS = \
@@ -226,7 +226,7 @@ ChessGame.app/Contents/MacOS/ChessGame: /usr/local/lib/QtWidgets.framework/Versi
 ChessGame.app/Contents/MacOS/ChessGame: /usr/local/lib/QtGui.framework/Versions/A/QtGui
 ChessGame.app/Contents/MacOS/ChessGame: /usr/local/lib/QtCore.framework/Versions/A/QtCore
 ChessGame.app/Contents/MacOS/ChessGame: CMakeFiles/ChessGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ChessGame.app/Contents/MacOS/ChessGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ChessGame.app/Contents/MacOS/ChessGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ChessGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -240,6 +240,6 @@ CMakeFiles/ChessGame.dir/clean:
 CMakeFiles/ChessGame.dir/depend: ChessGame_autogen/EWIEGA46WW/qrc_image.cpp
 CMakeFiles/ChessGame.dir/depend: ChessGame_autogen/EWIEGA46WW/qrc_rcs.cpp
 CMakeFiles/ChessGame.dir/depend: ChessGame_autogen/timestamp
-	cd /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles/ChessGame.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles/ChessGame.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ChessGame.dir/depend
 

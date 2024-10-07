@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build
+CMAKE_BINARY_DIR = /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build
 
 # Utility rule file for ChessGame_autogen_timestamp_deps.
 
@@ -78,6 +78,6 @@ CMakeFiles/ChessGame_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/ChessGame_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/ChessGame_autogen_timestamp_deps.dir/depend:
-	cd /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles/ChessGame_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles/ChessGame_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ChessGame_autogen_timestamp_deps.dir/depend
 

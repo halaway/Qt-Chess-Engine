@@ -303,11 +303,11 @@ ChessGame_autogen/timestamp: \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/qos.h \
 	/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/time.h \
 	/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdarg.h \
+	/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles/3.30.3/CMakeCXXCompiler.cmake \
+	/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles/3.30.3/CMakeSystem.cmake \
 	/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/CMakeLists.txt \
 	/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/board.cpp \
 	/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/board.h \
-	/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles/3.30.3/CMakeCXXCompiler.cmake \
-	/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles/3.30.3/CMakeSystem.cmake \
 	/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/moc_predefs.h \
 	/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/image.qrc \
 	/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/main.cpp \

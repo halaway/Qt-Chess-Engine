@@ -571,8 +571,6 @@ CMakeFiles/ChessGame.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/window.h \
-  /usr/local/lib/QtCore.framework/Headers/QSharedDataPointer \
-  /usr/local/lib/QtCore.framework/Headers/qshareddata.h \
   /usr/local/lib/QtWidgets.framework/Headers/QWidget \
   /usr/local/lib/QtWidgets.framework/Headers/qwidget.h \
   /usr/local/lib/QtWidgets.framework/Headers/QGraphicsScene \

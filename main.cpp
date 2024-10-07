@@ -13,38 +13,17 @@
 #include <QIODevice>
 #include <QDebug>
 
+/**
+ * @brief The entry point for the chess application.
+ * Initializes the Qt application, creates the main window object,
+ * and starts the event loop to display the window.
+ */
+
 int main(int argc, char *argv[])
 {
 
-
-
-    QApplication app (argc, argv);
+    QApplication app(argc, argv);
     window Window;
     Window.show();
     return app.exec();
-
-
-    // QApplication a(argc, argv);
-    // MainWindow w;
-    // w.show();
-
-    // Board b;
-    // b.Print();
-    // std::cout<<""<<std::endl;
-
-
-    // std::pair<int, int> start = {6,0};
-    // std::pair<int, int> end = {1,5};
-    // // std::pair<int, int> other = {3,1};
-    // // std::pair<int, int> other2 = {1,2};
-
-    // b.Position_Piece(start, end);
-    // // b.Position_Piece(end, other);
-    // // b.Position_Piece(other, other2);
-    // b.Print();
-
-
-
-
-    //return a.exec();
 }

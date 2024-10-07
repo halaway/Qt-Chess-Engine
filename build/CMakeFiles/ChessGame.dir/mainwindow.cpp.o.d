@@ -515,7 +515,7 @@ CMakeFiles/ChessGame.dir/mainwindow.cpp.o: \
   /usr/local/include/QtWidgets/qsizepolicy.h \
   /usr/local/include/QtGui/qcursor.h /usr/local/include/QtGui/qbitmap.h \
   /usr/local/include/QtWidgets/qtabwidget.h \
-  /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/ChessGame_autogen/include/./ui_mainwindow.h \
+  /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/ChessGame_autogen/include/./ui_mainwindow.h \
   /usr/local/include/QtCore/QVariant \
   /usr/local/lib/QtCore.framework/Headers/qvariant.h \
   /usr/local/include/QtWidgets/QApplication \

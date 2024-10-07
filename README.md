@@ -39,8 +39,8 @@ To Run:
 ```
 - cd build
 - cmake .. 
-- cmake —build .
-- open Project.app
+- cmake —-build .
+- open ChessGame.app
 ```
 ### Qt Creator 
 Using the Qt IDE:

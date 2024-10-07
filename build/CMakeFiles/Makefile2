@@ -57,7 +57,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build
+CMAKE_BINARY_DIR = /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,18 +80,18 @@ clean: CMakeFiles/ChessGame_autogen.dir/clean
 # Target rules for target CMakeFiles/ChessGame.dir
 
 # All Build rule for target.
-CMakeFiles/ChessGame.dir/all: CMakeFiles/ChessGame_autogen_timestamp_deps.dir/all
 CMakeFiles/ChessGame.dir/all: CMakeFiles/ChessGame_autogen.dir/all
+CMakeFiles/ChessGame.dir/all: CMakeFiles/ChessGame_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChessGame.dir/build.make CMakeFiles/ChessGame.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChessGame.dir/build.make CMakeFiles/ChessGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target ChessGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target ChessGame"
 .PHONY : CMakeFiles/ChessGame.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ChessGame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ChessGame.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles 0
 .PHONY : CMakeFiles/ChessGame.dir/rule
 
 # Convenience name for target.
@@ -110,14 +110,14 @@ CMakeFiles/ChessGame.dir/clean:
 CMakeFiles/ChessGame_autogen_timestamp_deps.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChessGame_autogen_timestamp_deps.dir/build.make CMakeFiles/ChessGame_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChessGame_autogen_timestamp_deps.dir/build.make CMakeFiles/ChessGame_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles --progress-num= "Built target ChessGame_autogen_timestamp_deps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles --progress-num= "Built target ChessGame_autogen_timestamp_deps"
 .PHONY : CMakeFiles/ChessGame_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ChessGame_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ChessGame_autogen_timestamp_deps.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles 0
 .PHONY : CMakeFiles/ChessGame_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
@@ -136,14 +136,14 @@ CMakeFiles/ChessGame_autogen_timestamp_deps.dir/clean:
 CMakeFiles/ChessGame_autogen.dir/all: CMakeFiles/ChessGame_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChessGame_autogen.dir/build.make CMakeFiles/ChessGame_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChessGame_autogen.dir/build.make CMakeFiles/ChessGame_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles --progress-num=12 "Built target ChessGame_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles --progress-num=12 "Built target ChessGame_autogen"
 .PHONY : CMakeFiles/ChessGame_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ChessGame_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ChessGame_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/donnie/Desktop/Chess-Folder/Qt-Chess-Engine/Build/CMakeFiles 0
 .PHONY : CMakeFiles/ChessGame_autogen.dir/rule
 
 # Convenience name for target.
